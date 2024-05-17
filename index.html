@@ -1,9 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Triangles, with JS" />
+  <meta name="keywords" content="mths, icd2o" />
+  <meta name="author" content="Gabriel" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-teal.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <title>Trianglels, with JS</title>
+<h1>Triangle Type Checker</h1>
+<label for="sideA">Side A:</label>
+<input type="number" id="sideA" min="1" required>
+<br>
+<label for="sideB">Side B:</label>
+<input type="number" id="sideB" min="1" required>
+<br>
+<label for="sideC">Side C:</label>
+<input type="number" id="sideC" min="1" required>
+<br>
+<button onclick="checkTriangle()">Check Triangle Type</button>
+<div class="result" id="result"></div>
+<div class="page-content">That matches a Equilateral triangle</div>
+</body>
 </html>
